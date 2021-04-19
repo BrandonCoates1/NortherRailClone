@@ -1,0 +1,477 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap);
+
+* {
+    margin: none;
+    padding: none;
+}
+
+p {
+    margin: 0;
+}
+
+h3, h4, h6, .h3, .h4, .h6 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: rgb(38, 34, 98);
+    font-size: 20px;
+}
+
+h4, .h4 {
+    font-weight: 500;
+    color: rgb(80, 189, 236);
+    font-size: 13px;
+}
+
+.findMoreHeader {
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+a:link {
+    text-decoration: none !important;
+    color: rgb(38, 34, 98);
+}
+
+a:visited {
+    text-decoration: none !important;
+    color: rgb(38, 34, 98);
+}
+
+a.service:link {
+    text-decoration: none !important;
+    color: rgb(244, 150, 25);
+}
+
+a.service:visited {
+    text-decoration: none !important;
+    color: rgb(244, 150, 25);
+}
+
+.details:link {
+    text-decoration: none !important;
+    color: rgb(80, 189, 236);
+}
+
+.details:visited{
+    text-decoration: none !important;
+    color: rgb(80, 189, 236);
+}
+
+.item:link {
+    color: white;
+}
+
+.item:visited {
+    color: white;
+}
+
+.hitch:link {
+    color: rgb(190, 188, 188);
+}
+
+.hitch:visited {
+    color: rgb(190, 188, 188);
+}
+
+a:hover {
+    color: #00AEB6;
+}
+
+.button:hover {
+    color: rgb(38, 34, 98);
+}
+
+.details:hover {
+    color: rgb(85, 85, 85);
+}
+
+.item:hover {
+    text-decoration: underline !important;
+    text-decoration-color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    margin: 0;
+    font-family: "montserrat";
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.navBar {
+    display: grid;
+    height: 9.5vh;
+    width: 63vw;
+    /* background-color: #ff9f9f; */
+    margin-left: 18.5vw;
+    grid-template-columns: repeat(12, auto);
+    align-items: center;
+}
+
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.serviceCircle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.circlePic {
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    height: 502px;
+    width: vw;
+    background-color: #212121;
+    color: white;
+    padding-top: 10px;
+}
+
+.royal {
+    display: flex;
+    flex-direction: column;
+    height: 492px;
+    width: 35vw;
+    margin-left: 19vw;
+    margin-top: 1vh;
+    background-color: #212121;
+    background-image: url(https://d11vpqhghel6qd.cloudfront.net/images/promotions/WomanHeartEyesHF.svg);
+    background-position: 95% 70%;
+    background-repeat: no-repeat;
+    background-size: 43%;
+}
+
+.royalHeader {
+    padding-top: 6vh;
+    font-size: 25px;
+    height: 135px;
+    line-height: 55px;
+    font-weight: 700;
+}
+
+.royalText {
+    height: 100px;
+    line-height: 3vh;
+    font-size: 17.5px;
+}
+
+.findMore {
+    display: flex;
+    height: 4.8vh;
+    width: 11.8vw;
+    background-color: #FCBE0C;
+    color: rgb(38, 34, 98);
+    margin-top: 5vh;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    margin-top: 50px;
+}
+
+.main {
+    margin-bottom: 3.7vh;
+}
+
+.top, .bottom {
+    display: grid;
+    height: 290px;
+    /* background-color: rgb(183, 201, 255); */
+    margin-top: 62px;
+    grid-template-columns: repeat(4, 23.5%);
+    margin-left: 18.5vw;
+    gap: 35px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 70% 20%;
+    height: 289px;
+    background-image: url(https://d11vpqhghel6qd.cloudfront.net/img/3147/360/260/Web_banner_TT_change.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+}
+
+.timetable, .recruit {
+    background-color: white;
+    height: 92px;
+    width: 260px;
+    margin-left: 20px;
+    border-radius: 16px;
+    box-shadow: 4px 5px 10px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 17px;
+    padding-left: 10px;
+}
+
+.rotate {
+    display: flex;
+    position: relative;
+    left: 51%;
+    bottom: 69px;
+    height: 30px;
+    width: 110px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: rgb(80, 189, 236);
+    justify-content: center;
+    align-items: center;
+    transform: rotate(270deg);
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 70% 20%;
+    height: 289px;
+    background-image: url(https://d11vpqhghel6qd.cloudfront.net/img/3163/360/260/careers.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+}
+
+.container4 {
+    display: flex;
+    height: 30px;
+    border: 1px dotted black;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.ad {
+    font-weight: 500;
+    font-size: 15.7px;
+}
+
+.middle {
+    display: grid;
+    height: 337px;
+    background-color: rgb(183, 201, 255);
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 18.5vw;
+    margin-right: 18.5vw;
+}
+
+.container5 {
+    background-color: rgb(226, 226, 226);
+    padding-left: 28px;
+    padding-top: 15px;
+}
+
+.news {
+    color: rgb(38, 34, 98);
+    line-height: 15px;
+}
+
+.buttonBox {
+    background-color: rgb(80, 189, 236);
+}
+
+.button {
+    display: flex;
+    height: 45px;
+    width: 130px;
+    background-color: rgb(199, 199, 199);
+    color: rgb(38, 34, 98);
+    margin-top: 18px;
+    padding-left: 20px;
+    border-radius: 100px;
+    align-items: center;
+    gap: 25px;
+}
+
+.circle {
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(38, 34, 98);
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    place-content: center;
+    line-height: 25px;
+}
+
+.container6 {
+    background-color: rgb(38, 34, 98);
+    color: white;
+    padding-left: 28px;
+    padding-top: 15px;
+}
+
+.route {
+    color: white;
+    line-height: 15px;
+}
+
+.improv {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.changes {
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.container7 {
+    display: grid;
+    grid-template-columns: 70% 20%;
+    height: 289px;
+    background-image: url(https://d11vpqhghel6qd.cloudfront.net/img/3112/360/260/PromoBox_1440x1100.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+}
+
+.container8 {
+    display: grid;
+    grid-template-columns: 70% 20%;
+    height: 289px;
+    background-image: url(https://d11vpqhghel6qd.cloudfront.net/img/3146/360/260/Registration-sign-up.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+}
+
+.container9 {
+    display: grid;
+    grid-template-columns: 70% 20%;
+    height: 289px;
+    background-image: url(https://d11vpqhghel6qd.cloudfront.net/img/3170/360/260/promobox_cab.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+}
+
+.footer {
+    position: relative;
+    height: 58vh;
+    background-color: rgb(38, 34, 98);
+    padding-top: 2vh;
+}
+
+.container10 {
+    display: grid;
+    height: 320px;
+    grid-template-columns: 1fr 3fr;
+    margin-left: 18.5vw;
+    margin-right: 18.5vw;
+    line-height: 30px;
+    margin-bottom: 9vh;
+}
+
+.links {
+    padding-top: 7px;
+}
+
+.usefulLinks {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.container11 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.384);
+}
+
+.inform, .add {
+    color: white;
+    font-size: 18px;
+}
+
+.inform:hover {
+    color: grey !important;
+}
+
+.add:hover {
+    color: grey !important;
+}
+
+.add1 {
+    margin-left: 35vw;
+    font-size: 45px;
+}
+
+.add2 {
+    margin-left: 31.7vw;
+    font-size: 45px;
+}
+
+.add3 {
+    margin-left: 27.9vw;
+    font-size: 45px;
+}
+
+.moreLinks {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 7vh;
+    background-color: rgb(0, 174, 182);
+    /* z-index: 1; */
+}
+
+.item1 {
+    display: inline;
+}
+
+.list {
+    display: flex;
+    margin-left: 18.5vw;
+    margin-right: 18.5vw;
+    gap: 3.9vw;
+    align-items: center;
+}
+
+.item2 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.copyright {
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 18.5vw;
+    margin-right: 18.5vw;
+}
+
+.rights {
+    color: rgb(190, 188, 188);
+    font-size: 12.5px;
+}
+
+.hitch {
+    font-size: 12.5px;
+}
